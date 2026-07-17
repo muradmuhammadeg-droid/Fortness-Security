@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Outer rim of the shield in glowing ElectricCyan -->
+    <path
+        android:fillColor="#00F0FF"
+        android:pathData="M12,2 L4,5 L4,11 C4,16.55 7.84,21.74 12,23 C16.16,21.74 20,16.55 20,11 L20,5 L12,2 Z" />
+    
+    <!-- Inner shield background left side (Dark Navy) -->
+    <path
+        android:fillColor="#0B132B"
+        android:pathData="M12,3.8 L5.8,6.1 L5.8,11 C5.8,15.15 8.92,19.23 12,20.68 L12,3.8 Z" />
+        
+    <!-- Inner shield background right side (slightly lighter Indigo/Navy for high-quality depth) -->
+    <path
+        android:fillColor="#1C2E4A"
+        android:pathData="M12,3.8 L12,20.68 C15.08,19.23 18.2,15.15 18.2,11 L18.2,6.1 L12,3.8 Z" />
+
+    <!-- Center secure keyhole in ElectricCyan -->
+    <path
+        android:fillColor="#00F0FF"
+        android:pathData="M12,8 C10.9,8 10,8.9 10,10 C10,10.74 10.4,11.38 11,11.72 L11,14.5 C11,15.05 11.45,15.5 12,15.5 C12.55,15.5 13,15.05 13,14.5 L13,11.72 C13.6,11.38 14,10.74 14,10 C14,8.9 13.1,8 12,8 Z M12,11 C11.45,11 11,10.55 11,10 C11,9.45 11.55,9 12,9 C12.45,9 13,9.45 13,10 C13,10.55 12.45,11 12,11 Z" />
+</vector>

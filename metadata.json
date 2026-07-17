@@ -1,0 +1,6 @@
+{
+  "name": "Fortness Security",
+  "description": "An advanced device security auditor, on-device local encrypted credentials vault, and Master PIN protected secure notepad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
